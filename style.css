@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+*{
+  margin: 0;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.header {
+  border-bottom: 1px solid grey;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1140px;
+  align-items: center;
+  padding: 24px 150px;
+}
+
+.logo {
+  width: 212.34px;
+  height: 53.24px;
+  margin-left: 144px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 110px;
+  gap: 24px;
+}
+
+.header__links {
+  color: black;
+  font-size: 20px;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0;
+}
+
+.header__link {
+  color: black;
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.subtitle {
+  max-width: 1140px;
+  margin: 20px 140px;
+}
+
+h2 {
+  color: #121723;
+  font-family: "Anonymous Pro";
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 32px;
+}
+
+.sneakers {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1440px;
+    margin-bottom: 10px; 
+}
+
+.container { 
+  max-width: 371;
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  overflow: hidden; 
+}
+
+.container__title {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin: 32px 24px 0;
+}
+
+.container__text {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 12px 24px 12px;
+}
+
+.container__image {
+  max-width: 370px;
+}
+
+.footer {
+  background: var(--black, #121723);
+}
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1140px;
+  padding: 24px 150px;
+}
+
+.footer__link {
+  color: var(--white, #FFF);
+  font-family: "Anonymous Pro";
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer__links {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Anonymous Pro", sans-serif;
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding: 0;
+}
+.last_logo {
+  color: var(--text_gray, #A1A6B4);
+  font-family: "Anonymous Pro";
+  font-size: 16px;
+  font-weight: 700;
+  border-top: 1px solid grey;
+  max-width: 1140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 140px;
+  padding: 24px;
+}
+
+.tire_down hr {
+  width: 1160px;
+  height: 1px;
+}
+
+.down {
+  display: flex;
+  width: 1400px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 32px;
+  padding-left: 140px;
+}
